@@ -72,3 +72,12 @@ typings/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignorar diretório de ativos do CDK
+cdk.out/
+
+# Ignorar arquivos de estado do CDK (não os compartilhe)
+cdk.context.json
+
+# Ignorar arquivos de configuração do CDK (não os compartilhe)
+cdk.json
